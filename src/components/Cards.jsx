@@ -11,6 +11,7 @@ import { MdOutlineTitle } from "react-icons/md";
 import { MdAttachMoney } from "react-icons/md";
 import { MdCameraRoll } from "react-icons/md";
 import { FaWeight } from "react-icons/fa";
+import { MdOutlineGroups } from "react-icons/md";
 
 const override = {
     display: "flex",
@@ -110,12 +111,12 @@ const Card = ({ data }) => {
                             </div>
                             <hr className="border-[hsla(0,11%,65%,.230)]"></hr>
                             <div className="flex justify-between items-center mt-2 w-full pb-3 relative cursor-pointer">
-                                <h2 className="w-1/3 font-thin text-sm inline-flex items-center gap-2"><FaMinusCircle /><span>diameter</span></h2>
+                                <h2 className="w-1/3 font-thin text-sm inline-flex items-center gap-2"><FaMinusCircle /><span>Diameter</span></h2>
                                 <h2 className="w-2/3">{data.diameter}</h2>
                             </div>
                             <hr className="border-[hsla(0,11%,65%,.230)]"></hr>
                             <div className="flex justify-between items-center mt-2 w-full pb-3 relative cursor-pointer">
-                                <h2 className="w-1/3 font-thin text-sm inline-flex items-center gap-2"><FaMinusCircle /><span>population</span></h2>
+                                <h2 className="w-1/3 font-thin text-sm inline-flex items-center gap-2"><MdOutlineGroups /><span>Population</span></h2>
                                 <h2 className="w-2/3">{data.population}</h2>
                             </div>
                         </div>
