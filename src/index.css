@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  .custom-css-video {
+    width: 100vw;
+    height: calc(100vh - 40px);
+    object-fit: cover;
+    background: #232a34;
+  }
+
+  .custom-css-video-planets {
+    width: 100vw;
+    min-height: calc(100vh - 40px);
+    object-fit: cover;
+    background: #232a34;
+  }
+
+  @media screen and (max-width: 768px) {
+    .custom-css-hero-h1 {
+      font-size: 40px;
+    }
+    .custom-flex-box {
+      flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .custom-css-hero-h1 {
+      font-size: 32px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .custom-css-hero-p {
+      font-size: 24px;
+    }
+  }
+
+  .card-container:before {
+    background: hsla(0,11%,65%,.137)!important;
+    content: "";
+    height: 100%;
+    left: -15px;
+    position: absolute;
+    top: 0;
+    width: 2px;
+  }
