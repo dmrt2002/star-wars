@@ -38,13 +38,3 @@
       font-size: 24px;
     }
   }
-
-  .card-container:before {
-    background: hsla(0,11%,65%,.137)!important;
-    content: "";
-    height: 100%;
-    left: -15px;
-    position: absolute;
-    top: 0;
-    width: 2px;
-  }
