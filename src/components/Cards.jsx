@@ -89,8 +89,8 @@ const Card = ({ data }) => {
                     </li>
                 </ul>
                 {tab === 1 && (
-                    <div className="relative max-h-64 mt-4 overflow-scroll">
-                        <div className="flex flex-col justify-center card-container overflow-y-scroll">
+                    <div className="relative max-h-64 mt-4">
+                        <div className="flex flex-col justify-center card-container">
                             <div className="flex justify-around items-center mt-2 w-full pb-3 relative cursor-pointer">
 
                                 <h2 className="w-1/3 font-thin text-sm inline-flex items-center gap-2"><FaCloudRain /><span>Climate</span></h2>
@@ -139,8 +139,8 @@ const Card = ({ data }) => {
                             <>
                             {residents.length > 0 ? (
                             <div className="flex flex-col justify-between h-full">
-                            <div className="relative max-h-64 mt-4 overflow-scroll">
-                                    <div className="flex flex-col justify-center card-container overflow-y-scroll">
+                            <div className="relative max-h-64 mt-4">
+                                    <div className="flex flex-col justify-center card-container">
                                         <div className="flex justify-around items-center mt-2 w-full pb-3 relative cursor-pointer">
 
                                             <h2 className="w-1/3 font-thin text-sm inline-flex items-center gap-2"><MdDriveFileRenameOutline /><span>Name</span></h2>
@@ -208,8 +208,8 @@ const Card = ({ data }) => {
                             <>
                             {films.length > 0 ? (
                             <div className="flex flex-col justify-between h-full">
-                            <div className="relative max-h-64 mt-4 overflow-scroll">
-                                    <div className="flex flex-col justify-center card-container overflow-y-scroll">
+                            <div className="relative max-h-64 mt-4">
+                                    <div className="flex flex-col justify-center card-container">
                                         <div className="flex justify-around items-center mt-2 w-full pb-3 relative cursor-pointer">
 
                                             <h2 className="w-1/3 font-thin text-sm inline-flex items-center gap-2"><MdOutlineTitle /><span>Title</span></h2>

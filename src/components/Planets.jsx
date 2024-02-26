@@ -72,7 +72,7 @@ export default function Planets() {
                         </>
                     ) : (
                         <>
-                            <div className="pt-5 pb-5 grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2  gap-4 w-full overflow-auto h-full bg-transparent">
+                            <div className="pt-5 pb-5 grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2  gap-4 w-full h-full bg-transparent">
                                 {apiData && apiData?.results.map((result) => {
                                     return (
                                         <div className='pt-4'>
