@@ -70,7 +70,7 @@ const Card = ({ data }) => {
             <div className="py-5 px-6 flex flex-col text-white md:px-6 h-[360px] bg-[hsla(0,11%,65%,.137)] shadow-md backdrop-filter rounded-lg">
                 <h1 className="font-bold text-2xl mb-2 bg-gradient-to-r bg-clip-text  text-transparent from-cyan-500 via-purple-500 to-indigo-500 animate-text">{data.name}</h1>
                 <ul class="flex flex-wrap mt-2 text-sm font-medium text-center text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400">
-                    <li className="me-2 ml-2" onClick={() => setTab(1)}>
+                    <li className="me-2" onClick={() => setTab(1)}>
                         <div className={`inline-block p-2 cursor-pointer ${tab === 1 ? 'text-blue-600 bg-gray-100 rounded-t-lg active dark:bg-gray-800 dark:text-blue-500' : 'hover:text-gray-600 hover:bg-gray-50 dark:hover:bg-gray-800 dark:hover:text-gray-300'}`}>Charecteristics</div>
                     </li>
                     <li className="me-2 ml-2" onClick={() => {
